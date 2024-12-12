@@ -19,4 +19,5 @@ func main() {
 
 		fmt.Fprint(os.Stdout, input[:len(input)-1]+": command not found\n")
 	}
+	os.Exit(0)
 }
